@@ -10,7 +10,6 @@ import (
 
 func main() {
 	t := time.Now()
-	//path := "/home/winx/Projects/test-text/"
 
 	path := flag.String("path", "", "Path to directory")
 	oldText := flag.String("old", "", "Old text")
